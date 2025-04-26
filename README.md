@@ -12,7 +12,6 @@ The app displays a list of AI safety incidents, allows users to filter and sort 
 
 ## Project Stack
 
-The project uses:
 - **React (with TypeScript)** for the frontend logic and component structure.
 - **Vite** for fast development and build tooling.
 - **CSS (Flexbox/Grid)** for clean, responsive UI styling.
