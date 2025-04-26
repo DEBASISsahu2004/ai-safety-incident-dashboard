@@ -47,4 +47,3 @@ Follow these steps to set up the project locally:
 
    ```bash
    http://localhost:5173/
-
