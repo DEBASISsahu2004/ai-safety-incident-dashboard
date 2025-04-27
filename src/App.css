@@ -11,7 +11,7 @@ body {
   background-color: #f4f7fa;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
@@ -64,7 +64,7 @@ body {
 
 .filterContainer select {
   padding: 6px 2px;
-  font-size: 12px;
+  font-size: 14px;
   border: 1px solid #666;
   border-radius: 4px;
   background-color: #fff;
@@ -98,7 +98,6 @@ body {
   }
 
   .filterContainer select {
-    font-size: 14px;
     padding: 8px;
   }
 }
