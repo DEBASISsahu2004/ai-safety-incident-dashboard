@@ -1,0 +1,94 @@
+.incidentList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.incidentItem {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.incidentItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.incidentItem h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #000;
+}
+
+.incidentItem p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.incidentItem button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.incidentItem button:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .incidentList {
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .incidentItem {
+    padding: 12px;
+  }
+
+  .incidentItem h3 {
+    font-size: 16px;
+  }
+
+  .incidentItem p {
+    font-size: 13px;
+  }
+
+  .incidentItem button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .incidentList {
+    padding: 10px 15px;
+    gap: 8px;
+  }
+
+  .incidentItem {
+    padding: 10px;
+  }
+
+  .incidentItem h3 {
+    font-size: 14px;
+  }
+
+  .incidentItem p {
+    font-size: 12px;
+  }
+
+  .incidentItem button {
+    font-size: 12px;
+  }
+}
